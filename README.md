@@ -2,4 +2,4 @@
 
 
 
-<b>Bof.ps1</b> - PowerShell Buffer Overflow Script. Great for exploiting services on windows boxes which are only accessible from localhost. 
+<b>Bof.ps1</b> - PowerShell Buffer Overflow Script. Great for pivoting to exploit internal windows services. 
